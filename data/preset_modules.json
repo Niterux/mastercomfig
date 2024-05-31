@@ -112,14 +112,6 @@
     "ultra": "msaa_8x",
     "none": ""
   },
-  "texture_filter": {
-    "default": "trilinear",
-    "very-low": "bilinear",
-    "medium-high": "aniso4x",
-    "high": "aniso8x",
-    "ultra": "aniso16x",
-    "none": ""
-  },
   "characters": {
     "default": "low",
     "very-low": "very_low",
@@ -200,13 +192,19 @@
     "default": "high",
     "none": ""
   },
-  "textures": {
-    "default": "low",
-    "very-low": "very_low",
-    "medium": "medium",
+  "texture_quality": {
+    "default": "high",
     "medium-high": "high",
     "high": "very_high",
     "ultra": "ultra",
+    "none": ""
+  },
+  "texture_filter": {
+    "default": "trilinear",
+    "very-low": "bilinear",
+    "medium-high": "aniso4x",
+    "high": "aniso8x",
+    "ultra": "aniso16x",
     "none": ""
   },
   "ropes": {

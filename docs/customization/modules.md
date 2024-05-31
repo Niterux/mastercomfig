@@ -13,7 +13,7 @@ Modules are groups of related commands with specific values for a certain use ca
 Modules are used in presets to set quality levels and can also be used in your very own `tf/cfg/overrides/modules.cfg` file to customize your config easily without searching for individual console variable values. You can find out what module levels your preset uses by [viewing their respective cfg file](https://github.com/mastercomfig/mastercomfig/tree/release/config/cfg/presets). To set a custom module level, put it in `overrides/modules.cfg`. For example:
 
 ```c
-textures=high
+texture_quality=high
 ```
 
 will set the texture quality to `high`.
@@ -33,7 +33,7 @@ These usage levels are merely a relative estimate, not a precise indicator of th
 You can check what module level you have selected for a module by entering `module_level` into the console. For example, `textures_level` will output:
 
 ```c
-textures=high
+texture_quality=high
 ```
 
 or similar.
@@ -49,7 +49,7 @@ You can also view selected levels for all modules by entering `module_levels` in
 
 Modules are backed with aliases, so you can easily use them in advanced customization and scripting.
 
-If you want to disable running a module entirely, you can put (for example) `alias textures` in `overrides/modules.cfg`. This will prevent mastercomfig from running texture commands. An exception to this rule is the Snapshot Buffer module. To fully disabled it, you must use `snapshot_buffer=custom`.
+If you want to disable running a module entirely, you can put (for example) `alias texture_quality` in `overrides/modules.cfg`. This will prevent mastercomfig from running texture commands. An exception to this rule is the Snapshot Buffer module. To fully disabled it, you must use `snapshot_buffer=custom`.
 
 Since module aliases act like normal commands, you can use them in the console to change game settings easily. For example, enter `textures_high` into the console to temporarily set your texture quality to high for that game session. You can reset your modules to what they were on startup by entering `run_modules` into the console.
 
@@ -352,25 +352,6 @@ Default setting: based on which preset you are currently using.
 - **`anti_aliasing=msaa_4x`**: Enables MSAA 4x.
 - **`anti_aliasing=msaa_8x`**: Enables MSAA 8x.
 
-### Texture Filtering
-
-Controls texture smoothing/filtering.
-
-!!! warning
-    Texture filtering will only work on `textures=low` and higher.
-
-- **CPU usage:** none
-- **GPU usage:** low
-
-Default setting: based on which preset you are currently using.
-
-- **`texture_filter=bilinear`**: Bilinear filtering
-- **`texture_filter=trilinear`**: Trilinear filtering
-- **`texture_filter=aniso2x`**: Anisotropic filtering 2x
-- **`texture_filter=aniso4x`**: Anisotropic filtering 4x
-- **`texture_filter=aniso8x`**: Anisotropic filtering 8x
-- **`texture_filter=aniso16x`**: Anisotropic filtering 16x
-
 ### Characters
 
 Adjusts characters details.
@@ -573,12 +554,27 @@ Controls texture quality.
 
 Default setting: based on which preset you are currently using.
 
-- **`textures=very_low`**: Low texture quality, blocky textures, disables texture blending.
-- **`textures=low`**: Low texture quality, disables texture blending.
-- **`textures=medium`**: Medium texture quality.
-- **`textures=high`**: High texture quality.
-- **`textures=very_high`**: Very High texture quality.
-- **`textures=ultra`**: Maximum texture quality.
+- **`texture_quality=low`**: Low texture quality, disables texture blending..
+- **`texture_quality=medium`**: Medium texture quality.
+- **`texture_quality=high`**: High texture quality.
+- **`texture_quality=very_high`**: Very High texture quality.
+- **`texture_quality=ultra`**: Maximum texture quality.
+
+### Texture Filtering
+
+Controls texture smoothing/filtering.
+
+- **CPU usage:** none
+- **GPU usage:** low
+
+Default setting: based on which preset you are currently using.
+
+- **`texture_filter=bilinear`**: Bilinear filtering
+- **`texture_filter=trilinear`**: Trilinear filtering
+- **`texture_filter=aniso2x`**: Anisotropic filtering 2x
+- **`texture_filter=aniso4x`**: Anisotropic filtering 4x
+- **`texture_filter=aniso8x`**: Anisotropic filtering 8x
+- **`texture_filter=aniso16x`**: Anisotropic filtering 16x
 
 ### Ropes
 
