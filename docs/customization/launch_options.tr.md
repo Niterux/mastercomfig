@@ -19,7 +19,6 @@ seçeneklerini kutuya yapıştırın.
 
 === "Windows"
 
-     * **-dxlevel 80** : DirectX 8, Pixel Shader 1.1. Donanımdan tam olarak yararlanmayan eski görselleştirme yöntemlerini kullanır.
      * **-dxlevel 90** : DirectX 9, Pixel Shader 2.0b. Yarı modern görselleştirme yöntemlerini kullanırken daha düşük grafik kalitesi sunar.
      * **-dxlevel 100** : DirectX 9+, Pixel Shader 3.0. En yüksek grafik kalitesi. Grafik özelliklerini belirlemek için donanımı kullanır. (önerilen)
 

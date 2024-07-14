@@ -340,7 +340,7 @@ Controls MSAA anti-aliasing.
     On Linux, enabling may cause rendering errors with Wayland.
 
 !!! warning
-    On Windows, enabling MSAA may increase input latency on non-exclusive fullscreen modes.
+    On DirectX, enabling MSAA may increase input latency.
 
 - **CPU usage:** none
 - **GPU usage:** medium
