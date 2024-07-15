@@ -146,9 +146,9 @@ Filters what custom content is allowed to be downloaded from the server.
 - **CPU usage:** none
 - **GPU usage:** none
 
-Default setting: **`download=auto`** (all presets).
+Default setting: **`download=custom`** (all presets).
 
-- **`download=auto`**: Whatever the user sets in the game settings.
+- **`download=custom`**: Whatever the user sets in the game settings.
 - **`download=all`**: Download all custom files from servers.
 - **`download=nosounds`**: Download everything but sounds from servers.
 - **`download=mapsonly`**: Download only maps from servers.
@@ -179,8 +179,8 @@ Controls lighting fidelity: dynamic lights, detailed lighting, rimlights, light 
 
 Default setting: based on which preset you are currently using.
 
-- **`lighting=very_low`**: No dynamic lights. Skips all non-static lighting. No light brightness smoothing, lightwarps, rimlights or lighting brightness boost. Blocky world lighting.
-- **`lighting=low`**: No dynamic lights. Skips dim non-static lights. No light brightness smoothing, lightwarps, rimlights or lighting brightness boost. Blocky world lighting.
+- **`lighting=very_low`**: No dynamic lights. Skips all non-static lighting. No light brightness smoothing, lightwarps, rimlights or lighting brightness boost.
+- **`lighting=low`**: No dynamic lights. Skips dim non-static lights. No light brightness smoothing, lightwarps, rimlights or lighting brightness boost.
 - **`lighting=medium`**: No dynamic lights. Detailed non-static lighting. No light brightness smoothing, lightwarps, rimlights or lighting brightness boost.
 - **`lighting=medium_high`**: No dynamic lights. Detailed non-static lighting.
 - **`lighting=high`**: 1 dynamic light. Detailed non-static lighting.
@@ -527,7 +527,7 @@ Default setting: **`sheens_speed=slow`** (all presets, except Very Low).
 
 ### Killstreak Sheens Tint Intensity
 
-Controls how intense the color tint is on the killstreak sheen glow for weapons.
+Controls how intense the color tint is on light reflections for the killstreak sheen glow for weapons.
 
 !!! note
     This module will have no effect if `sheens_speed` is set to `off`.
@@ -554,7 +554,7 @@ Controls texture quality.
 
 Default setting: based on which preset you are currently using.
 
-- **`texture_quality=low`**: Low texture quality, disables texture blending..
+- **`texture_quality=low`**: Low texture quality, disables texture blending.
 - **`texture_quality=medium`**: Medium texture quality.
 - **`texture_quality=high`**: High texture quality.
 - **`texture_quality=very_high`**: Very High texture quality.
@@ -569,6 +569,7 @@ Controls texture smoothing/filtering.
 
 Default setting: based on which preset you are currently using.
 
+- **`texture_filter=blocky`**: Blocky textures and world lighting
 - **`texture_filter=bilinear`**: Bilinear filtering
 - **`texture_filter=trilinear`**: Trilinear filtering
 - **`texture_filter=aniso2x`**: Anisotropic filtering 2x
@@ -674,9 +675,9 @@ Controls the Contracts HUD seen at the top right corner of the screen during gam
 - **CPU usage:** low
 - **GPU usage:** none
 
-Default setting: **`hud_contracts=auto`** (all presets, except Very Low).
+Default setting: **`hud_contracts=custom`** (all presets, except Very Low).
 
-- **`hud_contracts=auto`**: Whatever the user set in the game settings.
+- **`hud_contracts=custom`**: Whatever the user set in the game settings.
 - **`hud_contracts=hide`**: Hides the Contracts HUD.
 - **`hud_contracts=all`**: Shows all Contracts available.
 - **`hud_contracts=active`**: Only shows active Contracts.
