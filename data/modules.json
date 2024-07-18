@@ -853,20 +853,6 @@
   "networking": {
     "modules": [
       {
-        "name": "sourcetv",
-        "display": "SourceTV Compatibility",
-        "description": "Ensures compatibility with SourceTV spectating.",
-        "type": "switch",
-        "values": [
-          {
-            "value": "off"
-          },
-          {
-            "value": "on"
-          }
-        ]
-      },
-      {
         "name": "packet_rate",
         "description": "Controls how fast you send to and receive from the server.",
         "values": [

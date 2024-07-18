@@ -1,7 +1,4 @@
 {
-  "sourcetv": {
-    "default": "on"
-  },
   "packet_rate": {
     "default": "standard",
     "very-low": "congestion"

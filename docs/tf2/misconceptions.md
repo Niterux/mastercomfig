@@ -57,6 +57,7 @@ These launch options may be creating an improper video mode, which is not prefer
 - `r_lod 2` : This forces everything to LOD 2, when the lowest quality is LOD 7. Set this to `r_lod -1` and let `r_rootlod` handle base quality while still allowing for lower qualities to be used at a distance.
 - `voice_fadeouttime 0` : makes audio crackle in some cases
 - `mat_use_compressed_hdr_textures 0` : just enables using non-compressed HDR textures, [reducing performance](https://github.com/ValveSoftware/Source-1-Games/issues/2783#issuecomment-526368186).
+- `toggle mat_antialias` : Used in some HUDs to reload elements, but can cause a material system reload. It's recommended to use `mat_aaquality` instead, which does not have this problem.
 
 ## Unused CVars
 

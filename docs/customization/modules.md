@@ -61,18 +61,6 @@ This means that you can change this alias in the game and have multiple versions
 
 ## Networking modules
 
-### SourceTV Compatibility
-
-Optimizes spectator view or ensures compatibility with SourceTV.
-
-- **CPU usage:** none
-- **GPU usage:** none
-
-Default setting: **`sourcetv=on`** (all presets).
-
-- **`sourcetv=off`**: Reduces the latency of changing spectator targets, but breaks compatibility with SourceTV. Cannot be switched off until a game restart.
-- **`sourcetv=on`**: Keeps compatibility with SourceTV.
-
 ### Packet Rate
 
 Controls how fast you send to and receive from the server.
