@@ -759,7 +759,7 @@ Controls the HUD achievements tracker.
 - **CPU usage:** low
 - **GPU usage:** none
 
-Default setting: **`hud_achievement=off`** (all presets).
+Default setting: **`hud_achievement=on`** (all presets).
 
 - **`hud_achievement=off`**: Disables achievement tracker panel completely.
 - **`hud_achievement=on`**: Enables support for achievement tracker panel.
@@ -881,7 +881,7 @@ Controls the privacy of your Casual/Competitive matchmaking party.
 - **CPU usage:** none
 - **GPU usage:** none
 
-Default setting: **`party_mode=request`** (all presets).
+Default setting: **`party_mode=invite`** (all presets).
 
 - **`party_mode=open`**: Open party (people can join anytime).
 - **`party_mode=request`**: Request-only party (people can only join if you accept their request or if you invite them).

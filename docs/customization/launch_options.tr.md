@@ -8,7 +8,7 @@ Steam kütüphanenizde Team Fortress 2'ye sağ tıklayın ve **Özellikler...** 
 her şeyi silin ve
 
 ```c
--novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -NoQueuedPacketThread
+-novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars
 ```
 
 seçeneklerini kutuya yapıştırın.
@@ -32,7 +32,7 @@ seçeneklerini kutuya yapıştırın.
 
 ## Önerilen Başlatma Seçenekleri
 
-`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -NoQueuedPacketThread`
+`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars`
 
 - **-novid** : Valve başlangıç logosunu devre dışı bırakır, zaman kazandırır.
 - **-nojoy** : Joystick sisteminin başlatılmasını durdurur; daha hızlı başlangıç ve daha az bellek kullanımı.
