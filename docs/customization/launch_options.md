@@ -9,7 +9,7 @@ In the window that appears, under **Launch Options**, remove anything that's in
 there and paste
 
 ```c
--novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars
+-novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -NoQueuedPacketThread
 ```
 
 into the box and click ok.
@@ -36,7 +36,7 @@ Read below about optional launch options and choosing your own DXLevel.
 
 ## Recommended Launch Options
 
-`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars`
+`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -NoQueuedPacketThread`
 
 - **-novid** : disables Valve startup logo, saves time
 - **-nojoy** : stops Joystick system from starting up, faster startup and less memory usage
@@ -44,6 +44,7 @@ Read below about optional launch options and choosing your own DXLevel.
 - **-nohltv** : disables SourceTV hosting, less resource usage
 - **-particles 1** : limits beam count to the minimum of 512
 - **-precachefontchars** : precaches font rendering for common characters
+- **-NoQueuedPacketThread** : skips creating unused split packet queue thread
 
 ## Extra Launch Options
 

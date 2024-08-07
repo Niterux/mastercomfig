@@ -208,6 +208,9 @@ Default setting: based on which preset you are currently using.
 
 Controls flashlight support. Flashlights are not used in TF2, so you should keep it disabled unless you need it for a certain community server mod, like Slender, or some Deathrun servers.
 
+!!! warning
+    Turning on flashlight support will cause rendering artifacts on some maps, especially when Pyroland is enabled!
+
 - **CPU usage:** low
 - **GPU usage:** medium
 
