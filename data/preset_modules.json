@@ -296,7 +296,7 @@
     "default": "on"
   },
   "party_mode": {
-    "default": "request"
+    "default": "invite"
   },
   "logo": {
     "default": "on",
